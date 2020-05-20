@@ -25,14 +25,16 @@
         android:layout_height="wrap_content"
         android:hint="비밀번호를 입력하세요."
         android:inputType="textPassword"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="한줄 자기 소개"/>
-    <EditText
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:singleLine="true"/>
+        android:text="로그인" />
 
 
 </LinearLayout>
